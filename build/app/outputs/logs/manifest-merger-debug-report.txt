@@ -1,0 +1,574 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:2:5-33:19
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/88ca2d8871c7c653b60923b4fa57531b/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/88ca2d8871c7c653b60923b4fa57531b/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d77c1659551d80e7c659ac1d8e068f8/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d77c1659551d80e7c659ac1d8e068f8/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5f74825582cf9142d1d3b1789ed8ae9b/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5f74825582cf9142d1d3b1789ed8ae9b/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3a4e98bfa534cefcfc6f002e19f38d39/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3a4e98bfa534cefcfc6f002e19f38d39/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/db54c83350cd7eea0658e78d8e8d8c82/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/db54c83350cd7eea0658e78d8e8d8c82/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/a13a56ab0aeca29487f926a8fb3e41be/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/a13a56ab0aeca29487f926a8fb3e41be/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e14e9430c580d6e1072a61f67022ac33/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e14e9430c580d6e1072a61f67022ac33/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+MERGED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:google_sign_in_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6049729cdc65c478f2c4953bb0d63b61/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/be2818c3410807dc2fe03db5fcfbad3d/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/88ca2d8871c7c653b60923b4fa57531b/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7d989db750e6c7d79dc62b1f3b661b1c/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8ab890eaa57d9c220cc5d86d026330b7/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6c68347af34642c3062ce3f2d843fa67/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d77c1659551d80e7c659ac1d8e068f8/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f61a6b84f71b2e3a4fa31f0ab944694e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5f74825582cf9142d1d3b1789ed8ae9b/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3a4e98bfa534cefcfc6f002e19f38d39/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/387ba8995bf3a01677a5976c5e6578b9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/bb4c0517380f4c1fbd6b81597d9ff2b9/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5afc9cb95144318fa75f5248a5767bfb/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d8c700cfaeafaaf3b57cec211a799bc/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/1bd6a1d75d7e3af65b67d29ce1a21076/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e3481c9a4842ab660a101b732f7f7e28/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/db54c83350cd7eea0658e78d8e8d8c82/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/57a1e9fb256579bc3de8c6e5fe947c01/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/819ee9a3882bc7e99d1a63535190f44e/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/d9b82f32f555c6f67c94dd0a490e2fad/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/39235acf72e91ee00612607fbcab7a28/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/365ae186d11c408bc579afbdd91b2f69/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6dfd33d422fa600244f545144fc0b233/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/807834850fcbfd61117db8570caa81f0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/a13a56ab0aeca29487f926a8fb3e41be/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6b95201629d19292c2f5c4792ca6ee64/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aad2a02b089562d2f99c903b440e7343/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5a2a594aa3c11de88de3ea9de4522f76/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/dbec831134edd980c0738cc9ea5bbf33/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e14e9430c580d6e1072a61f67022ac33/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f35117cb9ff4b7e1fd79113bafe287c8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/cab8db16e9b68d628540cab1954d3498/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/188ff3da6ec42795988bb4aaa1c00de5/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ef99c87b8386440ba8d7ac673454c6c4/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7ac2f91e097ab45fc771b8f6a0bc94c3/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/954f1a1a0122dbf5250255204085ff1c/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:1:70-102
+		INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:1:11-69
+queries
+ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:39:5-44:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:40:9-43:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:41:21-70
+data
+ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:42:13-50
+	android:mimeType
+		ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/main/AndroidManifest.xml:42:19-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [:google_sign_in_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml:6:22-64
+uses-sdk
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/zhangyuanzhen/Desktop/omniwallet/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6049729cdc65c478f2c4953bb0d63b61/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6049729cdc65c478f2c4953bb0d63b61/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/be2818c3410807dc2fe03db5fcfbad3d/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/be2818c3410807dc2fe03db5fcfbad3d/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/88ca2d8871c7c653b60923b4fa57531b/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/88ca2d8871c7c653b60923b4fa57531b/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7d989db750e6c7d79dc62b1f3b661b1c/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7d989db750e6c7d79dc62b1f3b661b1c/transformed/jetified-credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8ab890eaa57d9c220cc5d86d026330b7/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8ab890eaa57d9c220cc5d86d026330b7/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6c68347af34642c3062ce3f2d843fa67/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6c68347af34642c3062ce3f2d843fa67/transformed/jetified-play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d77c1659551d80e7c659ac1d8e068f8/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d77c1659551d80e7c659ac1d8e068f8/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f61a6b84f71b2e3a4fa31f0ab944694e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f61a6b84f71b2e3a4fa31f0ab944694e/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5f74825582cf9142d1d3b1789ed8ae9b/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5f74825582cf9142d1d3b1789ed8ae9b/transformed/jetified-play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3a4e98bfa534cefcfc6f002e19f38d39/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3a4e98bfa534cefcfc6f002e19f38d39/transformed/jetified-integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/387ba8995bf3a01677a5976c5e6578b9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/387ba8995bf3a01677a5976c5e6578b9/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/bb4c0517380f4c1fbd6b81597d9ff2b9/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/bb4c0517380f4c1fbd6b81597d9ff2b9/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5afc9cb95144318fa75f5248a5767bfb/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5afc9cb95144318fa75f5248a5767bfb/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d8c700cfaeafaaf3b57cec211a799bc/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/3d8c700cfaeafaaf3b57cec211a799bc/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/1bd6a1d75d7e3af65b67d29ce1a21076/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/1bd6a1d75d7e3af65b67d29ce1a21076/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e3481c9a4842ab660a101b732f7f7e28/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e3481c9a4842ab660a101b732f7f7e28/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/db54c83350cd7eea0658e78d8e8d8c82/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/db54c83350cd7eea0658e78d8e8d8c82/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/57a1e9fb256579bc3de8c6e5fe947c01/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/57a1e9fb256579bc3de8c6e5fe947c01/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/819ee9a3882bc7e99d1a63535190f44e/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/819ee9a3882bc7e99d1a63535190f44e/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/d9b82f32f555c6f67c94dd0a490e2fad/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/d9b82f32f555c6f67c94dd0a490e2fad/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/39235acf72e91ee00612607fbcab7a28/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/39235acf72e91ee00612607fbcab7a28/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/365ae186d11c408bc579afbdd91b2f69/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/365ae186d11c408bc579afbdd91b2f69/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6dfd33d422fa600244f545144fc0b233/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6dfd33d422fa600244f545144fc0b233/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/807834850fcbfd61117db8570caa81f0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/807834850fcbfd61117db8570caa81f0/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/a13a56ab0aeca29487f926a8fb3e41be/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/a13a56ab0aeca29487f926a8fb3e41be/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6b95201629d19292c2f5c4792ca6ee64/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/6b95201629d19292c2f5c4792ca6ee64/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aad2a02b089562d2f99c903b440e7343/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aad2a02b089562d2f99c903b440e7343/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5a2a594aa3c11de88de3ea9de4522f76/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/5a2a594aa3c11de88de3ea9de4522f76/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/dbec831134edd980c0738cc9ea5bbf33/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/dbec831134edd980c0738cc9ea5bbf33/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e14e9430c580d6e1072a61f67022ac33/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/e14e9430c580d6e1072a61f67022ac33/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f35117cb9ff4b7e1fd79113bafe287c8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f35117cb9ff4b7e1fd79113bafe287c8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/cab8db16e9b68d628540cab1954d3498/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/cab8db16e9b68d628540cab1954d3498/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/188ff3da6ec42795988bb4aaa1c00de5/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/188ff3da6ec42795988bb4aaa1c00de5/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ef99c87b8386440ba8d7ac673454c6c4/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ef99c87b8386440ba8d7ac673454c6c4/transformed/jetified-googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7ac2f91e097ab45fc771b8f6a0bc94c3/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7ac2f91e097ab45fc771b8f6a0bc94c3/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/954f1a1a0122dbf5250255204085ff1c/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/954f1a1a0122dbf5250255204085ff1c/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zhangyuanzhen/Desktop/omniwallet/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/zhangyuanzhen/Desktop/omniwallet/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/zhangyuanzhen/Desktop/omniwallet/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7ac2f91e097ab45fc771b8f6a0bc94c3/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/zhangyuanzhen/.gradle/caches/transforms-3/7ac2f91e097ab45fc771b8f6a0bc94c3/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/ae3507fd20a721cef82605d1bf80922e/transformed/jetified-firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/50264e82e864092e2e7fef26f1ea6d2b/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/329ae3c2244a1c0d3e4c58d4d18d3eef/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/63c99ab890dd00e673ae070c64fe2809/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/zhangyuanzhen/.gradle/caches/transforms-3/46d515e24fe94eec164401c82cb06948/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.0.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/16319874c9f3bdc5adf1bbc72a74b86d/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/b4ca532e6a4e0e29ac7d56e398fbafb1/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/f7d238943e286127a975ea0f54db9427/transformed/jetified-recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/2845714e67dec691cde55c1f9b329d5b/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/24e00ae31b5d8a1ea67f2b3dae39c1c0/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.csen268.omniwallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.csen268.omniwallet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/767fa86c9f2a519090ffe2a860e39363/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/a13a56ab0aeca29487f926a8fb3e41be/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/a13a56ab0aeca29487f926a8fb3e41be/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/zhangyuanzhen/.gradle/caches/transforms-3/74b48403f68eb900fa087a45ccbacb62/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zhangyuanzhen/.gradle/caches/transforms-3/aa873a1d8232f837cfaf75a526791c1e/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/zhangyuanzhen/.gradle/caches/transforms-3/8c6a4e4da049a5b3135a541f001d2c91/transformed/jetified-core-common-2.0.3/AndroidManifest.xml:15:13-93
